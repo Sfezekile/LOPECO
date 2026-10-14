@@ -478,11 +478,13 @@ footer ul {
   gap: 6px 18px;
   flex-wrap: wrap
 }
+
 .left-wrap {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
+
 .right-wrap {
   height: 20vh;
   display: flex;
