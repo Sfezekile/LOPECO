@@ -17,7 +17,7 @@
   padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
-@media (prefers-color-scheme:dark) {
+/* @media (prefers-color-scheme:dark) {
   :root:not([data-theme="light"]) {
     --bg: #121316;
     --surface: #1b1d22;
@@ -41,7 +41,7 @@
   --lime-ink: #9ad14b;
   --soft: #241a21;
   --line: #33292f
-}
+} */
 
 html {
   scroll-behavior: smooth;
