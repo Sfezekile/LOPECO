@@ -1,4 +1,4 @@
-/* ===== BRAND TOKENS (from the LOPECO logo) ===== */
+/* ===== BRAND TOKENS ===== */
 :root {
   --bg: #ffffff;
   --surface: #ffffff;
@@ -355,7 +355,8 @@ nav .btn {
   display: grid;
   gap: 40px;
   grid-template-rows: repeat(auto-fit, minmax(290px, 1fr));
-  align-items: center
+  align-items: center;
+  text-align: center;
 }
 .stats {
   display: flex;
