@@ -507,3 +507,21 @@ footer ul {
   min-width: 200px;
   text-align: center
 }
+
+@media (max-width: 800px) {
+  .topbar .wrap {
+    flex-direction: column;
+    gap: 6px 0
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .top-contact {
+    flex-direction: column;
+    gap: 6px 0;
+    align-items: center
+  }
+  
+}
