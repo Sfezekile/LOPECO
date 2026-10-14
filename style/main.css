@@ -364,6 +364,9 @@ nav .btn {
     text-align: justify;
   }
 }
+.contact-two {
+  text-align: center;
+}
 .stats {
   display: flex;
   gap: 40px;
@@ -379,13 +382,13 @@ nav .btn {
   width: 100%;
   background: var(--soft);
   border-radius: 18px;
+  text-align: center;
   padding: 24px;
   margin-bottom: 16px
 }
 
 .statcard p, .stat-p {
   margin: .4em 0 0;
-  text-align: center;
   color: var(--muted)
 }
 
@@ -475,6 +478,11 @@ footer ul {
   gap: 6px 18px;
   flex-wrap: wrap
 }
+.left-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
 .right-wrap {
   height: 20vh;
   display: flex;
@@ -507,7 +515,7 @@ footer ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 6px 16px;
+  gap: 6px 6px;
   min-width: 200px;
 
   i {
@@ -551,6 +559,14 @@ footer ul {
 
   .stats {
     flex-direction: column;
+  }
+  .statcard {
+    text-align: left;
+  }
+
+  .left-wrap {
+    align-items: center;
+    text-align: center;
   }
   
 }
