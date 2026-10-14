@@ -65,7 +65,7 @@ a {
 }
 
 .wrap {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px
 }
@@ -152,6 +152,7 @@ section {
 header {
   position: sticky;
   top: 0;
+  padding: 0 20px;
   z-index: 10;
   background: var(--bg);
   border-bottom: 1px solid var(--line)
@@ -259,6 +260,22 @@ nav .btn {
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   align-items: center
 }
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px 0
+}
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  img {
+    width: 40vh; 
+    height: 40vh;
+  }
+}
 
 .hero p.lead {
   font-size: 1.1rem;
@@ -337,10 +354,13 @@ nav .btn {
 .two {
   display: grid;
   gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(290px, 1fr));
   align-items: center
 }
-
+.stats {
+  display: flex;
+  gap: 40px;
+}
 .stat {
   font-size: 3rem;
   font-weight: 800;
@@ -349,6 +369,7 @@ nav .btn {
 }
 
 .statcard {
+  width: 100%;
   background: var(--soft);
   border-radius: 18px;
   padding: 24px;
@@ -416,7 +437,7 @@ footer {
 }
 
 footer .wrap {
-  height: 50vh;
+  height: 60vh;
   display: flex;
   gap: 16px 32px;
   justify-content: center;
@@ -439,10 +460,13 @@ footer ul {
   flex-wrap: wrap
 }
 .right-wrap {
+  height: 20vh;
   display: flex;
   flex-direction: row;
-  gap: 6px 16vh;
-  min-width: 200px
+  gap: 16px 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center
 }
 
 .label-nav, .label-contact {
@@ -466,6 +490,7 @@ footer ul {
 .top-contact {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 6px 16px;
   min-width: 200px;
 
