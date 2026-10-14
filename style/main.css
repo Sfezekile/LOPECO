@@ -272,8 +272,8 @@ nav .btn {
   width: 100%;
 
   img {
-    width: 40vh; 
-    height: 40vh;
+    width: 60vh; 
+    height: auto;
   }
 }
 
@@ -360,7 +360,7 @@ nav .btn {
   text-align: center;
 
   p {
-    text-align-last: center;
+    /* text-align-last: center; */
     text-align: justify;
   }
 }
@@ -385,6 +385,7 @@ nav .btn {
 
 .statcard p {
   margin: .4em 0 0;
+  text-align: center;
   color: var(--muted)
 }
 
