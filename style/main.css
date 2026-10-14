@@ -356,7 +356,13 @@ nav .btn {
   gap: 40px;
   grid-template-rows: repeat(auto-fit, minmax(290px, 1fr));
   align-items: center;
+  justify-items: center;
   text-align: center;
+
+  p {
+    text-align: justify;
+    text-align-last: center;
+  }
 }
 .stats {
   display: flex;
