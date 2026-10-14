@@ -360,8 +360,8 @@ nav .btn {
   text-align: center;
 
   p {
-    text-align: justify;
     text-align-last: center;
+    text-align: justify;
   }
 }
 .stats {
