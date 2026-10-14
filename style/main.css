@@ -357,9 +357,9 @@ nav .btn {
   grid-template-rows: repeat(auto-fit, minmax(290px, 1fr));
   align-items: center;
   justify-items: center;
-  text-align: center;
+  text-align: left;
 
-  p {
+  .story-p {
     /* text-align-last: center; */
     text-align: justify;
   }
@@ -383,12 +383,15 @@ nav .btn {
   margin-bottom: 16px
 }
 
-.statcard p {
+.statcard p, .stat-p {
   margin: .4em 0 0;
   text-align: center;
   color: var(--muted)
 }
 
+.par p{
+  text-align: center;
+}
 .news small {
   color: var(--muted)
 }
@@ -435,6 +438,10 @@ nav .btn {
 .contact-list a {
   color: var(--text);
   text-decoration: none
+}
+
+.contact-btn {
+  margin-top: 15px;;
 }
 
 footer {
@@ -533,6 +540,7 @@ footer ul {
   .right-wrap {
     height: 50vh;
     gap: 10px;
+    align-items: start;
   }
   .contact {
     height: 14vh;
@@ -540,5 +548,9 @@ footer ul {
   .navi {
     height: 21vh;
   } 
+
+  .stats {
+    flex-direction: column;
+  }
   
 }
