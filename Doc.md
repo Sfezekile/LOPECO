@@ -63,3 +63,6 @@ After the initial build, I refined each section by hand.
 | Generate | AI (vibe coding) | HTML, CSS, content |
 | Design | Figma | Vector logos and icons |
 | Refine | Manual edits | Cleaner, more polished sections |
+
+## Client notes
+Notes: 'We're going to change the brand colours to black and white and a little hot pink.'
