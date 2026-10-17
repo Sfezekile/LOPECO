@@ -65,4 +65,17 @@ After the initial build, I refined each section by hand.
 | Refine | Manual edits | Cleaner, more polished sections |
 
 ## Client notes
-Notes: 'We're going to change the brand colours to black and white and a little hot pink.'
+Notes: `We're going to change the brand colours to black and white and a little hot pink.`
+
+`The Lady of Peace Community Foundation (LOPECO)
+promotes peace to end violence against women,
+children, and families - builds equal, resilient, and
+peaceful communities.
+Vision: To create a connected, empowered and
+inclusive society where communities unite to build
+lasting peace, equality, and social justice.
+Mission: Dedicated to fostering meaningful
+connections between diverse communities,
+empowering people to take charge of local initiatives,
+and advocating for policies that promotes safe
+communities.`
